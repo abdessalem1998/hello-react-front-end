@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-
+/* eslint-disable */ 
 export const fetchMessage = createAsyncThunk(
   'greetings/fetchMessage',
   async () => {
